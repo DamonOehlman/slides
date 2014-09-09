@@ -28,6 +28,8 @@
   },
   "dependencies": {
     "brfs": "^1.2.0",
+    "hyperscript": "^1.4.0",
+    "shaz": "^1.1.1",
     "shazamify": "^1.0.1"
   }
 }
