@@ -19,5 +19,15 @@
   "bugs": {
     "url": "https://github.com/DamonOehlman/djo-slides/issues"
   },
-  "homepage": "https://github.com/DamonOehlman/djo-slides"
+  "homepage": "https://github.com/DamonOehlman/djo-slides",
+  "browserify": {
+    "transform": [
+      "shazamify",
+      "brfs"
+    ]
+  },
+  "dependencies": {
+    "brfs": "^1.2.0",
+    "shazamify": "^1.0.1"
+  }
 }
