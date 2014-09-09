@@ -1,0 +1,23 @@
+{
+  "name": "djo-slides",
+  "version": "1.0.0",
+  "description": "An experiment in packaging slides into reusable chunks for easier talk composition",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DamonOehlman/djo-slides.git"
+  },
+  "keywords": [
+    "shazam",
+    "talks"
+  ],
+  "author": "Damon Oehlman <damon.oehlman@gmail.com>",
+  "license": "CCBY3.0",
+  "bugs": {
+    "url": "https://github.com/DamonOehlman/djo-slides/issues"
+  },
+  "homepage": "https://github.com/DamonOehlman/djo-slides"
+}
