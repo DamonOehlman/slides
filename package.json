@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/DamonOehlman/djo-slides.git"
+    "url": "https://github.com/DamonOehlman/slides.git"
   },
   "keywords": [
     "shazam",
@@ -17,9 +17,9 @@
   "author": "Damon Oehlman <damon.oehlman@gmail.com>",
   "license": "CCBY3.0",
   "bugs": {
-    "url": "https://github.com/DamonOehlman/djo-slides/issues"
+    "url": "https://github.com/DamonOehlman/slides/issues"
   },
-  "homepage": "https://github.com/DamonOehlman/djo-slides",
+  "homepage": "https://github.com/DamonOehlman/slides",
   "browserify": {
     "transform": [
       "shazamify",
