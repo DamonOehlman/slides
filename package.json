@@ -30,6 +30,7 @@
     "brfs": "^1.2.0",
     "hyperscript": "^1.4.0",
     "shaz": "^1.2.0",
+    "shaz-flickr": "^1.0.0",
     "shazamify": "^1.0.1"
   }
 }
