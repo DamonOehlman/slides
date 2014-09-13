@@ -5,3 +5,7 @@ flickr:
 giphy:
   - cosby-dissapoint.gif: http://giphy.com/gifs/EHwwPumd2xaN2
   - jane-what.gif: http://giphy.com/gifs/fiT8HCi3OtsGc
+
+wikimedia:
+  - mesh-network.svg: http://commons.wikimedia.org/wiki/File:Fully-connected_mesh_network.svg?uselang=en-gb
+  - p2p.svg: http://commons.wikimedia.org/wiki/File:P2P-network.svg?uselang=en-gb

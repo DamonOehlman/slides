@@ -1,11 +1,14 @@
 var getUserMedia = require('getusermedia');
+var attach = require('attachmediastream');
 var constraints = { audio: true, video: true };
 
 getUserMedia(constraints, function(err, stream) {
   if (err) {
-    return console.error('could not capture media: ', err);
+    return;
   }
 
-  // do something with the stream
-  console.log('got a stream: ', stream);
+  document.body.appendChild(attach(stream, null, {
+    mirror: true,
+    muted: true
+  }));
 });
