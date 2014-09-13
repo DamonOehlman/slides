@@ -14,5 +14,6 @@ module.exports = [
   s().png(fs.readFileSync(__dirname + '/../images/webtorrent.png')).contain(),
   s().h1('Getting Started'),
   s().h2('You could start with').a({ href: 'https://github.com/GoogleChrome/webrtc/blob/master/samples/web/js/adapter.js' }, 'adapter.js'),
-  s().gif('http://i.giphy.com/eHFWNWOuUkvZu.gif')
+  s().gif('http://i.giphy.com/eHFWNWOuUkvZu.gif'),
+  s().h2('or you could take a').h1('modular').h2('approach')
 ];
