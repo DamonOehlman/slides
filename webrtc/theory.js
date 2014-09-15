@@ -12,5 +12,7 @@ module.exports = [
   s().h1('audio'),
   s().gif('http://i.giphy.com/sHDnCBw3ddfpK.gif'),
   s().h1('data'),
-  s().todo('data gif')
+  s().gif(''),
+  s().h1('signalling'),
+  s().gif('http://i.giphy.com/pUaE7eiwQWa7S.gif')
 ];
