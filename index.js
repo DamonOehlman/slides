@@ -7,7 +7,7 @@ require('shaz-todo')(s);
 
 // use shaz-runnable for examples
 require('shaz-runnable')(s, {
-  cdn: 'http://localhost:3000',
+  cdn: 'http://guidebook.rtc.io',
   iframeStyle: fs.readFileSync(__dirname + '/css/demo-iframe.css', 'utf8'),
   demoConsole: true
 });
