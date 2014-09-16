@@ -6,9 +6,8 @@ module.exports = [
   s().h1('media').h2('capture & rendering'),
   s().npm('rtc-media'),
   s().runnable(fs.readFileSync(__dirname + '/examples/rtc-media-render.js')),
-  s().h1('capture').h1('constraints'), // .term('capture constraints'),
-  templates.hardway(),
+  s().h2('using capture constraints'),
   s().runnable(fs.readFileSync(__dirname + '/examples/complex-constraints.js')),
-  templates.easyway(),
-  s().h2('with rtc-captureconfig').runnable(fs.readFileSync(__dirname + '/examples/rtc-captureconfig.js'))
+  s().npm('rtc-captureconfig'),
+  s().runnable(fs.readFileSync(__dirname + '/examples/rtc-captureconfig.js'))
 ];
