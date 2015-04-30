@@ -1,13 +1,10 @@
 var s = require('../');
 var fs = require('fs');
+var h = require('hyperscript');
 
 module.exports = [
   s().h1('Getting Started'),
-  s().h2('A common place to start is').a({ href: 'https://github.com/GoogleChrome/webrtc/blob/master/samples/web/js/adapter.js' }, 'adapter.js'),
+  h('p', { className: 'embiggen' }, 'A common place to start is: ', h('a', { href: 'https://github.com/GoogleChrome/webrtc/blob/master/samples/web/js/adapter.js' }, 'adapter.js')),
   s().gif('http://i.giphy.com/eHFWNWOuUkvZu.gif'),
-  s().h2('or you could take a').h1('modular').h2('approach'),
-  s().npm('getusermedia').h3('for capturing media'),
-  s().runnable(fs.readFileSync(__dirname + '/examples/getusermedia.js')),
-  s().npm('attachmediastream').h3('for rendering'),
-  s().runnable(fs.readFileSync(__dirname + '/examples/attachmediastream.js'))
+  s().h2('or you could take a').h1('modular').h2('approach')
 ];
