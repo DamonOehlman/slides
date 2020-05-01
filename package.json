@@ -4,7 +4,9 @@
   "description": "An experiment in packaging slides into reusable chunks for easier talk composition",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -32,10 +34,12 @@
     "shaz": "^2.0.0",
     "shaz-flickr": "^1.0.0",
     "shazamify": "^1.0.1",
-    "crel": "~2.1.1"
+    "crel": "~2.1.1",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "attachmediastream": "~1.0.1",
     "getusermedia": "~1.0.0"
-  }
+  },
+  "snyk": true
 }
